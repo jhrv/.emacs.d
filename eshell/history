@@ -1,0 +1,28 @@
+ls
+ls
+find -r "test" .
+grep -r "test" .
+ls -l
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+ls -l
+cd uchiwa/uchiwa/
+ls -l
+emacs server.go 
+open server.go 
+ls -l
+.
+screen
+ls -l
+ls
+Welcome to the Emacs shel
+ls
+ack
+grep "(require 'evil)"
