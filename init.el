@@ -97,7 +97,6 @@
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-
 ;;;;
 ;; Customization
 ;;;;
@@ -131,6 +130,8 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
+(load "evil-init.el")
+
 (setq mac-option-modifier nil
       mac-command-modifier 'meta
       x-select-enable-clipboard t)
@@ -153,8 +154,8 @@
 
 
 ;; custom... skal flyttes
-(require 'evil)
-(evil-mode 1)
+;;(require 'evil)
+;;(evil-mode 1)
 
 
 (load-theme 'atom-dark t)
