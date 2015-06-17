@@ -126,11 +126,11 @@
 ;; For editing lisps
 (load "elisp-editing.el")
 
-;; Langauage-specific
+;; language-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
 
-(load "evil-init.el")
+(load "setup-evil.el")
 
 (setq mac-option-modifier nil
       mac-command-modifier 'meta
@@ -152,13 +152,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-
-;; custom... skal flyttes
-;;(require 'evil)
-;;(evil-mode 1)
-
-
 (load-theme 'atom-dark t)
 (set-default-font "Inconsolata 20")
 
 (tool-bar-mode -1)
+
