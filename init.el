@@ -130,6 +130,7 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
+
 (load "setup-evil.el")
 
 (setq mac-option-modifier nil
@@ -157,3 +158,4 @@
 
 (tool-bar-mode -1)
 
+(windmove-default-keybindings) ;; Shift+direction

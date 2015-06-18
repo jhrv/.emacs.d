@@ -26,3 +26,7 @@ Welcome to the Emacs shel
 ls
 ack
 grep "(require 'evil)"
+ls
+ls
+vvvvv
+:q
