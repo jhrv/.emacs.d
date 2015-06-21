@@ -9,3 +9,5 @@ projectile.cache
 auto-save-list
 backups
 /customizations/setup-evil.el
+eshell/history
+eshell/lastdir
