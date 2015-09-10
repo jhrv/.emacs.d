@@ -1,0 +1,3 @@
+alias ws cd ~/ws
+alias emacs find-file $1
+alias ll ls -l $1
