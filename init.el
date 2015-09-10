@@ -128,8 +128,6 @@
 
 ;; language-specific
 (load "setup-clojure.el")
-(load "setup-js.el")
-
 
 (load "setup-evil.el")
 
@@ -166,3 +164,9 @@
 (global-set-key (kbd "C-w s") 'split-window-below)
 (global-set-key (kbd "C-w v") 'split-window-right)
 (global-set-key (kbd "C-w q") 'delete-window)
+
+(global-set-key (kbd "C-c SPC") 'ace-jump-mode)
+
+(require 'linum-relative)
+(global-set-key (kbd "C-l") 'linum-mode)
+(global-set-key (kbd "C-M-l") 'linum-relative-toggle)
