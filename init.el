@@ -18,7 +18,40 @@
   (package-refresh-contents))
 
 
-;; change meta to be cmd instead of alt and make emacs and os x share clipboard TODO: check if osx?
-(setq mac-option-modifier nil
-      mac-command-modifier 'meta
-      x-select-enable-clipboard t) 
+;; Are we on a mac?
+(setq is-mac (equal system-type 'darwin))
+
+;; osx only; change meta to be cmd instead of alt
+(when is-mac
+    (setq mac-option-modifier nil
+	  mac-command-modifier 'meta
+))
+
+(defvar my-packages
+  '(smex))
+
+(when is-mac
+      (add-to-list 'my-packages 'exec-path-from-shell))
+
+(dolist (p my-packages)
+  (when (not (package-installed-p p))
+    (package-install p)))
+
+
+(setq settings-dir (expand-file-name "settings" user-emacs-directory))
+
+(add-to-list 'load-path settings-dir)
+
+;; Keep emacs Custom-settings in separate file
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
+
+;; Set up appearance early
+(require 'appearance)
+
+
+(require 'defaults)
+(require 'navigation)
+
+;; enable disabled keybinding (why bind it to a key in the first place?)
+(put 'upcase-region 'disabled nil)
