@@ -27,7 +27,8 @@
 	  mac-command-modifier 'meta))
 
 (defvar my-packages
-  '(smex))
+  '(smex
+    magit))
 
 (when is-mac
       (add-to-list 'my-packages 'exec-path-from-shell))
@@ -47,11 +48,8 @@
 
 ;; Set up appearance early
 (require 'appearance)
-
-
 (require 'defaults)
 (require 'navigation)
 
 ;; enable disabled keybinding (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
-
