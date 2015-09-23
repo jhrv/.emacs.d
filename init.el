@@ -55,3 +55,4 @@
 
 ;; enable disabled keybinding (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
+

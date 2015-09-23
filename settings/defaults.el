@@ -12,6 +12,6 @@
 (setq inhibit-startup-message t)
 
 ;; show matching parens
-(show-parens-mode 1)
+(show-paren-mode 1)
 
 (provide 'defaults)
