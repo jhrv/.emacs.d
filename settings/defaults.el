@@ -11,4 +11,7 @@
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
 
+;; show matching parens
+(show-parens-mode 1)
+
 (provide 'defaults)
