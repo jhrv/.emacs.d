@@ -2,7 +2,12 @@
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
 
 (load-theme 'monokai)
-(set-default-font "Inconsolata 20")
+
+(set-default-font "Inconsolata 16"))
+
+(when is-mac
+  (set-default-font "Inconsolata 20"))
+
 
 ;; Disable toolbar
 (tool-bar-mode -1)

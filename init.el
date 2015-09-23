@@ -20,12 +20,11 @@
 
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
-
+   
 ;; osx only; change meta to be cmd instead of alt
 (when is-mac
     (setq mac-option-modifier nil
-	  mac-command-modifier 'meta
-))
+	  mac-command-modifier 'meta))
 
 (defvar my-packages
   '(smex))
