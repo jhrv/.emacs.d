@@ -8,7 +8,6 @@
 (when is-mac
   (set-default-font "Inconsolata 20"))
 
-
 ;; Disable toolbar
 (tool-bar-mode -1)
 
@@ -17,7 +16,5 @@
 
 ;; No cursor blinking, it's distracting
 (blink-cursor-mode 0)
-
-
 
 (provide 'appearance)
