@@ -6,6 +6,7 @@
 
 ;; No need for ~ files when editing
 (setq create-lockfiles nil)
+(setq make-backup-files nil) 
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)

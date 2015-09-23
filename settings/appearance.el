@@ -1,3 +1,5 @@
+;; Set custom theme path
+(setq custom-theme-directory (concat user-emacs-directory "themes"))
 
 (load-theme 'monokai)
 (set-default-font "Inconsolata 20")
