@@ -3,7 +3,7 @@
 
 (load-theme 'monokai)
 
-(set-default-font "Inconsolata 16"))
+(set-default-font "Inconsolata 16")
 
 (when is-mac
   (set-default-font "Inconsolata 20"))
