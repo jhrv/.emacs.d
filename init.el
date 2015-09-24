@@ -17,7 +17,6 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
    
@@ -37,7 +36,6 @@
   (when (not (package-installed-p p))
     (package-install p)))
 
-
 (setq settings-dir (expand-file-name "settings" user-emacs-directory))
 
 (add-to-list 'load-path settings-dir)
@@ -50,7 +48,8 @@
 (require 'appearance)
 (require 'defaults)
 (require 'navigation)
-(require 'magit-setup)
+
+(eval-after-load 'magit '(require 'magit-setup))
 
 ;; enable disabled keybinding (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
