@@ -13,4 +13,7 @@
 
 (add-hook 'after-change-major-mode-hook #'set-appropriate-state)
 
+;; empty method with right signature to stop annoying error
+(defun evil-without-input-method-hooks(x y z a))
+
 (provide 'evil-setup)
