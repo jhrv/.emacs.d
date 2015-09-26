@@ -27,7 +27,8 @@
 
 (defvar my-packages
   '(smex
-    magit))
+    magit
+    evil))
 
 (when is-mac
       (add-to-list 'my-packages 'exec-path-from-shell))
@@ -48,6 +49,7 @@
 (require 'appearance)
 (require 'defaults)
 (require 'navigation)
+(require 'evil-setup)
 
 (eval-after-load 'magit '(require 'magit-setup))
 
