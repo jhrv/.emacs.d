@@ -26,11 +26,16 @@
       auto-save-timeout 20              ; number of seconds idle time before auto-save (default: 30)
       auto-save-interval 200)            ; number of keystrokes between auto-saves (default: 300)
 
-
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
 
 ;; show matching parens
 (show-paren-mode 1)
+
+;; Always ALWAYS use UTF-8
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+(load-library "iso-transl")
 
 (provide 'defaults)
