@@ -16,3 +16,4 @@ eshell/lastdir
 #init.el#
 ido.last~
 elpa/archives/gnu/archive-contents
+/elpa/archives/*/archive-contents
