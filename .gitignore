@@ -15,5 +15,4 @@ eshell/lastdir
 #.smex-items#
 #init.el#
 ido.last~
-elpa/archives/gnu/archive-contents
-/elpa/archives/*/archive-contents
+/elpa/archives/melpa/archive-contents
