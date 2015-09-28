@@ -51,6 +51,7 @@
 (require 'navigation)
 (require 'evil-setup)
 (require 'magit-setup)
+(require 'linum-setup)
 
 ;; enable disabled keybinding (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
