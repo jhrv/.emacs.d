@@ -45,8 +45,7 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-;; Set up appearance early
-(require 'appearance)
+(require 'appearance) ;; Set up appearance early
 (require 'defaults)
 (require 'navigation)
 (require 'evil-setup)
@@ -55,4 +54,3 @@
 
 ;; enable disabled keybinding (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
-
