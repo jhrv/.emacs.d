@@ -44,4 +44,7 @@
 (prefer-coding-system 'utf-8)
 (load-library "iso-transl")
 
+;; no tabs for me tyvm
+(setq-default indent-tabs-mode nil)
+
 (provide 'defaults)
