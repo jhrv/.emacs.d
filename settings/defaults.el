@@ -1,13 +1,16 @@
+;; default global keybindings
+(global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
+
 ;; seamless copy paste with os
 (setq x-select-enable-clipboard t)
 
-;; Changes all yes/no questions to y/n type
+;; changes all yes/no questions to y/n type
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ;; auto-update file-buffers on change
 (global-auto-revert-mode t)
 
-;; No need for ~ files when editing
+;; no need for ~ files when editing
 (setq create-lockfiles nil)
 
 ;; full path in title bar
@@ -32,13 +35,13 @@
       auto-save-timeout 20              ; number of seconds idle time before auto-save (default: 30)
       auto-save-interval 200)            ; number of keystrokes between auto-saves (default: 300)
 
-;; Go straight to scratch buffer on startup
+;; go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
 
 ;; show matching parens
 (show-paren-mode 1)
 
-;; Always ALWAYS use UTF-8
+;; always always use utf-8
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
