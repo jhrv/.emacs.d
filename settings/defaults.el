@@ -10,6 +10,9 @@
 ;; No need for ~ files when editing
 (setq create-lockfiles nil)
 
+;; full path in title bar
+(setq-default frame-title-format "%b (%f)")
+
 ;; backup files
 (defvar --backup-directory (concat user-emacs-directory "backups"))
 (if (not (file-exists-p --backup-directory))
