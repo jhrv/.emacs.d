@@ -4,6 +4,9 @@
 ;; Changes all yes/no questions to y/n type
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; auto-update file-buffers on change
+(global-auto-revert-mode t)
+
 ;; No need for ~ files when editing
 (setq create-lockfiles nil)
 
