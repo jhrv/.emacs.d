@@ -41,17 +41,17 @@
 
 (add-to-list 'load-path settings-dir)
 
-;; Keep emacs Custom-settings in separate file
+;; keep emacs custom-settings in separate file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-(require 'appearance) ;; Set up appearance early
+(require 'appearance) ;; set up appearance early
 (require 'defaults)
 (require 'navigation)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)
 
-;; enable disabled keybinding (why bind it to a key in the first place?)
+;; enable disabled keybindings (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
