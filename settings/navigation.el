@@ -7,6 +7,7 @@
 (ido-mode t)
 
 ;; This allows partial matches, e.g. "bf" will match "Ballus Fransus"
+(flx-ido-mode t)
 (setq ido-enable-flex-matching t)
 
 ;; Enhances M-x to allow easier execution of commands. Provides

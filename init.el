@@ -26,7 +26,8 @@
 (defvar my-packages
   '(smex
     magit
-    evil))
+    evil
+    flx-ido))
 
 (when is-mac
       (add-to-list 'my-packages 'exec-path-from-shell))
