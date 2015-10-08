@@ -46,6 +46,7 @@
 (require 'appearance) ;; set up appearance early
 (require 'defaults)
 (require 'navigation)
+(require 'eshell-setup)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)
