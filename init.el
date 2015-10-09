@@ -45,6 +45,7 @@
 (load custom-file)
 
 (require 'appearance) ;; set up appearance early
+(require 'defuns)
 (require 'defaults)
 (require 'navigation)
 (require 'eshell-setup)
