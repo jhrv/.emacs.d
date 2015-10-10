@@ -28,6 +28,7 @@
     magit
     evil
     find-file-in-project
+    ido-vertical-mode
     flx-ido))
 
 (when is-mac

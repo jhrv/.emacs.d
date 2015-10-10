@@ -33,11 +33,11 @@
 
 (defcustom evil-mode-line-color
   `((normal   . ,(face-background 'mode-line))
-    (insert   . "#575735")
+    (insert   . "#4A90E2")
     (replace  . "#575735")
-    (operator . "DarkSeaGreen4")
-    (visual   . "SteelBlue4")
-    (emacs    . "#8c5353"))
+    (operator . "#F5A623")
+    (visual   . "#50E3C2")
+    (emacs    . "#D0021B"))
   "Mode line color corresponds to Evil state."
   :type '(alist :key-type symbol :value-type string)
   :group 'evil-mode-line)

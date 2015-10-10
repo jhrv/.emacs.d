@@ -1,3 +1,5 @@
+(require 'ido-vertical-mode)
+
 ;; InteractivelyDoThings
 (ido-mode t)
 
@@ -14,5 +16,8 @@
 ;; I always always ALWAYS want to create a new buffer
 (setq ido-create-new-buffer 'always)
 
+(ido-vertical-mode t)
+
+(setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 
 (provide 'ido-setup)
