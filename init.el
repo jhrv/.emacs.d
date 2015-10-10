@@ -47,6 +47,7 @@
 (require 'appearance) ;; set up appearance early
 (require 'defuns)
 (require 'defaults)
+(require 'ido-setup)
 (require 'navigation)
 (require 'eshell-setup)
 (require 'evil-setup)
