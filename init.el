@@ -27,6 +27,7 @@
   '(smex
     magit
     evil
+    find-file-in-project
     flx-ido))
 
 (when is-mac
@@ -50,6 +51,7 @@
 (require 'ido-setup)
 (require 'navigation)
 (require 'eshell-setup)
+(require 'ffip-setup)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)
