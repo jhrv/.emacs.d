@@ -27,4 +27,11 @@
 (global-set-key (kbd "C-w v") 'split-window-right)
 (global-set-key (kbd "C-w q") 'delete-window)
 
+;; one size doesnt fit all
+(global-set-key (kbd "C-w -") 'shrink-window)
+(global-set-key (kbd "C-w C--") 'shrink-window-horizontally)
+(global-set-key (kbd "C-w +") 'enlarge-window)
+(global-set-key (kbd "C-w C-+") 'enlarge-window-horizontally)
+
+
 (provide 'navigation)
