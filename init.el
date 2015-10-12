@@ -24,6 +24,7 @@
     magit
     evil
     find-file-in-project
+    js2-mode
     ido-vertical-mode
     flx-ido))
 
@@ -60,6 +61,7 @@
 (require 'navigation)
 (require 'eshell-setup)
 (require 'ffip-setup)
+(require 'js2-setup)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)
