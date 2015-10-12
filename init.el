@@ -18,10 +18,6 @@
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
    
-;; osx only; change meta to be cmd instead of alt
-(when is-mac
-    (setq mac-option-modifier nil
-	  mac-command-modifier 'meta))
 
 (defvar my-packages
   '(smex
@@ -37,6 +33,17 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+;; osx only:
+;; - change meta to be cmd instead of alt
+;; - set same path for eshell as for term
+(when is-mac
+  (progn
+    (setq mac-option-modifier nil
+	  mac-command-modifier 'meta)
+    (exec-path-from-shell-initialize)))
+
+
 
 (setq settings-dir (expand-file-name "settings" user-emacs-directory))
 
