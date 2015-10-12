@@ -27,6 +27,8 @@
   '(smex
     magit
     evil
+    find-file-in-project
+    ido-vertical-mode
     flx-ido))
 
 (when is-mac
@@ -47,8 +49,10 @@
 (require 'appearance) ;; set up appearance early
 (require 'defuns)
 (require 'defaults)
+(require 'ido-setup)
 (require 'navigation)
 (require 'eshell-setup)
+(require 'ffip-setup)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)

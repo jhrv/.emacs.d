@@ -1,10 +1,11 @@
 (require 'evil)
+(require 'evil-mode-line)
 
 (setq evil-modes
       '(fundamental-mode
-	conf-mode
-	text-mode
-	prog-mode))
+        conf-mode
+        text-mode
+        prog-mode))
 
 (defun set-appropriate-state ()
   (if (apply 'derived-mode-p evil-modes)
