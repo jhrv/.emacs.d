@@ -34,6 +34,11 @@
       temporary-file-directory --backup-directory
       auto-save-interval 200)            ; number of keystrokes between auto-saves (default: 300)
 
+(setq backup-directory-alist
+          `((".*" . ,--backup-directory)))
+(setq auto-save-file-name-transforms
+          `((".*" ,--backup-directory t)))
+
 ;; go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
 

@@ -5,6 +5,8 @@
       '(fundamental-mode
         conf-mode
         text-mode
+        css-mode
+        web-mode
         prog-mode))
 
 (defun set-appropriate-state ()

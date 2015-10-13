@@ -25,6 +25,7 @@
     evil
     find-file-in-project
     js2-mode
+    web-mode
     ido-vertical-mode
     flx-ido))
 
@@ -62,6 +63,7 @@
 (require 'eshell-setup)
 (require 'ffip-setup)
 (require 'js2-setup)
+(require 'web-setup)
 (require 'evil-setup)
 (require 'magit-setup)
 (require 'linum-setup)
