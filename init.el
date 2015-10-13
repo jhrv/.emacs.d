@@ -45,8 +45,6 @@
 	  mac-command-modifier 'meta)
     (exec-path-from-shell-initialize)))
 
-
-
 (setq settings-dir (expand-file-name "settings" user-emacs-directory))
 
 (add-to-list 'load-path settings-dir)
