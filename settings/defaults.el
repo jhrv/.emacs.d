@@ -1,4 +1,4 @@
-;; default global keybindings
+v;; default global keybindings
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
 
 ;; seamless copy paste with os
@@ -51,8 +51,9 @@
 (prefer-coding-system 'utf-8)
 (load-library "iso-transl")
 
-;; no tabs for me tyvm
+;; tabs
 (setq-default indent-tabs-mode nil)
+(setq tab-width 4)
 
 ;; Enhances M-x to allow easier execution of commands. Provides
 ;; a filterable list of possible commands in the minibuffer
