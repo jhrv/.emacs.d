@@ -66,6 +66,7 @@
 (require 'magit-setup)
 (require 'linum-setup)
 (require 'ace-jump-setup)
+(require 'expand-region-setup)
 
 ;; enable disabled keybindings (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
