@@ -16,28 +16,16 @@ v;; default global keybindings
 ;; full path in title bar
 (setq-default frame-title-format "%b (%f)")
 
-;; backup files
-(defvar --backup-directory (concat user-emacs-directory "backups"))
+;; backup and auto-save files
+(defvar my/backup-directory (concat user-emacs-directory "backups"))
 
-(if (not (file-exists-p --backup-directory))
-        (make-directory --backup-directory t))
-
-(setq make-backup-files t               ; backup of a file the first time it is saved.
-      backup-by-copying t               ; don't clobber symlinks
-      version-control t                 ; version numbers for backup files
-      delete-old-versions t             ; delete excess backup files silently
-      delete-by-moving-to-trash t
-      kept-old-versions 6               ; oldest versions to keep when a new numbered backup is made (default: 2)
-      kept-new-versions 9               ; newest versions to keep when a new numbered backup is made (default: 2)
-      auto-save-default t               ; auto-save every buffer that visits a file
-      auto-save-timeout 20              ; number of seconds idle time before auto-save (default: 30)
-      temporary-file-directory --backup-directory
-      auto-save-interval 200)            ; number of keystrokes between auto-saves (default: 300)
+(if (not (file-exists-p my/backup-directory))
+        (make-directory my/backup-directory t))
 
 (setq backup-directory-alist
-          `((".*" . ,--backup-directory)))
+          `((".*" . ,my/backup-directory)))
 (setq auto-save-file-name-transforms
-          `((".*" ,--backup-directory t)))
+          `((".*" ,my/backup-directory t)))
 
 ;; go straight to scratch buffer on startup
 (setq inhibit-startup-message t)

@@ -63,6 +63,7 @@
 (require 'js2-setup)
 (require 'web-setup)
 (require 'evil-setup)
+(require 'yasnippet-setup)
 (require 'magit-setup)
 (require 'linum-setup)
 (require 'ace-jump-setup)
