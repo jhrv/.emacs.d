@@ -3,10 +3,9 @@
 
 (load-theme 'monokai)
 
-(set-default-font "Inconsolata 16")
-
-(when is-mac
-  (set-default-font "Inconsolata 20"))
+(if is-mac
+    (set-frame-font "Inconsolata-20" t t)
+  (set-frame-font "Inconsolata-16" t t))
 
 ;; Disable toolbar
 (tool-bar-mode -1)
