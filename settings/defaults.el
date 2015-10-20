@@ -57,5 +57,9 @@
 
 (rename-modeline "js2-mode" js2-mode "JS2")
 
+;; stop annoying 'directory is unsafe' error
+(require 'server)
+(and (>= emacs-major-version 23)
+     (defun server-ensure-safe-dir (dir) "Noop" t))
 
 (provide 'defaults)
