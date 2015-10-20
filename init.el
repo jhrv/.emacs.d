@@ -26,6 +26,7 @@
     find-file-in-project
     js2-mode
     web-mode
+    yasnippet
     ido-vertical-mode
     flx-ido))
 

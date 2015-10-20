@@ -1,4 +1,4 @@
-v;; default global keybindings
+;; default global keybindings
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
 
 ;; seamless copy paste with os
