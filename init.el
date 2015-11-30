@@ -71,6 +71,7 @@
 (require 'linum-setup)
 (require 'ace-jump-setup)
 (require 'expand-region-setup)
+(require 'web-beautify-setup)
 
 ;; packages with no extra config goes here
 (require 'dockerfile-mode)
