@@ -1,5 +1,6 @@
 ;; default global keybindings
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
+(global-set-key (kbd "C-x c") nil)
 
 ;; seamless copy paste with os
 (setq x-select-enable-clipboard t)

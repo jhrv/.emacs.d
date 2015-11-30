@@ -23,6 +23,7 @@
   '(smex
     magit
     evil
+    org
     find-file-in-project
     js2-mode
     web-mode
@@ -64,6 +65,7 @@
 (require 'js2-setup)
 (require 'web-setup)
 (require 'evil-setup)
+(require 'org-setup)
 (require 'yasnippet-setup)
 (require 'magit-setup)
 (require 'linum-setup)
