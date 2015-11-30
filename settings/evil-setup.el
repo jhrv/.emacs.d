@@ -6,6 +6,7 @@
         conf-mode
         text-mode
         css-mode
+        dockerfile-mode
         web-mode
         prog-mode))
 

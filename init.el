@@ -72,6 +72,9 @@
 (require 'ace-jump-setup)
 (require 'expand-region-setup)
 
+;; packages with no extra config goes here
+(require 'dockerfile-mode)
+
 ;; enable disabled keybindings (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
