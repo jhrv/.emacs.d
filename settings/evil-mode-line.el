@@ -37,7 +37,7 @@
     (replace  . "#575735")
     (operator . "#F5A623")
     (visual   . "#50E3C2")
-    (emacs    . "#D0021B"))
+    (emacs    . "#E122C1"))
   "Mode line color corresponds to Evil state."
   :type '(alist :key-type symbol :value-type string)
   :group 'evil-mode-line)
@@ -53,7 +53,7 @@
   "Mode line message for Evil replace state."
   :type 'string
   :group 'evil-mode-line)
-(defcustom evil-emacs-state-msg "x"
+(defcustom evil-emacs-state-msg "EMACS"
   "Mode line message for Evil emacs state."
   :type 'string
   :group 'evil-mode-line)

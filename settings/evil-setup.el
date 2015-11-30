@@ -13,7 +13,7 @@
 (defun set-appropriate-state ()
   (if (apply 'derived-mode-p evil-modes)
       (turn-on-evil-mode)
-    (turn-off-evil-mode)))
+    (evil-emacs-state)))
 
 (add-hook 'after-change-major-mode-hook #'set-appropriate-state)
 
