@@ -7,6 +7,7 @@
         text-mode
         css-mode
         dockerfile-mode
+        yaml-mode
         web-mode
         prog-mode))
 

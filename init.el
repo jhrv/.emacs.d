@@ -27,7 +27,13 @@
     find-file-in-project
     js2-mode
     web-mode
+    ace-jump-mode
+    dockerfile-mode
+    yaml-mode
+    web-beautify
+    expand-region
     yasnippet
+    smartparens
     ido-vertical-mode
     flx-ido))
 
@@ -72,9 +78,11 @@
 (require 'ace-jump-setup)
 (require 'expand-region-setup)
 (require 'web-beautify-setup)
+(require 'smartparens-setup)
 
 ;; packages with no extra config goes here
 (require 'dockerfile-mode)
+(require 'yaml-mode)
 
 ;; enable disabled keybindings (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
