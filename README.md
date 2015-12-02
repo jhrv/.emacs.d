@@ -1,1 +1,1 @@
-# Johnny's .emacs.d
+# Johnny's emacs config
