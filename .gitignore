@@ -17,8 +17,5 @@ eshell/lastdir
 ido.last~
 elpa/archives
 url/
-#.*#
 recentf
-/#!Users!hrv!gdrive!org!test.org#
-/#!Users!hrv!.emacs.d!settings!dockerfile-setup.el#
-/elpa/web-beautify-readme.txt
+\#*\#

@@ -27,6 +27,7 @@
           `((".*" . ,my/backup-directory)))
 (setq auto-save-file-name-transforms
           `((".*" ,my/backup-directory t)))
+(setq delete-old-versions t) ;; don't ask about deleting excess backups
 
 ;; go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
