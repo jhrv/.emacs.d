@@ -30,6 +30,7 @@
     ace-jump-mode
     dockerfile-mode
     yaml-mode
+    markdown-mode
     web-beautify
     expand-region
     yasnippet
@@ -83,6 +84,7 @@
 ;; packages with no extra config goes here
 (require 'dockerfile-mode)
 (require 'yaml-mode)
+(require 'markdown-mode)
 
 ;; enable disabled keybindings (why bind it to a key in the first place?)
 (put 'upcase-region 'disabled nil)
