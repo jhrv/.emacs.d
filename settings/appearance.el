@@ -1,7 +1,8 @@
 ;; Set custom theme path
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
 
-(load-theme 'monokai)
+;;(load-theme 'monokai)
+(load-theme 'deeper-blue)
 
 (if is-mac
     (set-frame-font "Inconsolata-20" t t)

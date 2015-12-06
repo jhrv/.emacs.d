@@ -116,5 +116,5 @@ We have our own \"--\" put by `evil-mode-line-state-msg-format'."
 (setq-default mode-line-format
               (append '("" evil-mode-line-msg) mode-line-format))
 
-(provide 'evil-mode-line)
+;;(provide 'evil-mode-line)
 ;;; evil-mode-line.el ends here

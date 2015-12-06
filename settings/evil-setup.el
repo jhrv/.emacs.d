@@ -1,5 +1,5 @@
 (require 'evil)
-(require 'evil-mode-line)
+;;(require 'evil-mode-line)
 
 (setq evil-modes
       '(fundamental-mode
