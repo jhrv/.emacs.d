@@ -76,7 +76,7 @@
    `(font-lock-regexp-grouping-construct ((,class (:weight bold))))
    `(font-lock-string-face ((,class (:foreground "burlywood"))))
    `(font-lock-type-face ((,class (:foreground "CadetBlue1"))))
-   `(font-lock-variable-name-face ((,class (:foreground "SeaGreen2"))))
+   `(font-lock-variable-name-face ((,class (:foreground "DarkOliveGreen3"))))
    `(fringe ((,class (:background "black"))))
    `(highlight ((,class (:background "DodgerBlue4"))))
    `(ido-first-match ((,class (:weight normal :foreground "orange"))))
