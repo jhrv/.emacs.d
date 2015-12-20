@@ -17,16 +17,10 @@
 ;; full path in title bar
 (setq-default frame-title-format "%b (%f)")
 
-;; backup and auto-save files
-(defvar my/backup-directory (concat user-emacs-directory "backups"))
-
-(if (not (file-exists-p my/backup-directory))
-        (make-directory my/backup-directory t))
-
 (setq backup-directory-alist
-          `((".*" . ,my/backup-directory)))
+          `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
-          `((".*" ,my/backup-directory t)))
+          `((".*" ,temporary-file-directory t)))
 (setq delete-old-versions t) ;; don't ask about deleting excess backups
 
 ;; go straight to scratch buffer on startup

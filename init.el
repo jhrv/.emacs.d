@@ -35,6 +35,7 @@
     expand-region
     yasnippet
     smartparens
+    evil-smartparens
     ido-vertical-mode
     flx-ido))
 
