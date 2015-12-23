@@ -80,6 +80,7 @@
 (require 'expand-region-setup)
 (require 'web-beautify-setup)
 (require 'smartparens-setup)
+(require 'go-setup)
 
 ;; packages with no extra config goes here
 (require 'dockerfile-mode)
