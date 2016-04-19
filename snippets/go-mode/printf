@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: go-printf 
+# key: printf
+# binding: direct-keybinding
+# --
+fmt.Printf("$1\n", $0)
