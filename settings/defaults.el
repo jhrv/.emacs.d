@@ -64,7 +64,4 @@
 (and (>= emacs-major-version 23)
      (defun server-ensure-safe-dir (dir) "Noop" t))
 
-(unless (server-running-p)
-  (server-start)) 
-
 (provide 'defaults)

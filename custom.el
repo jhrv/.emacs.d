@@ -5,7 +5,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("9cf132f3f55a81d9dac3c3672fb1498c54642e11e27948d8b721de5a18eacf07" "05c3bc4eb1219953a4f182e10de1f7466d28987f48d647c01f1f0037ff35ab9a" "91faf348ce7c8aa9ec8e2b3885394263da98ace3defb23f07e0ba0a76d427d46" "3ed645b3c08080a43a2a15e5768b893c27f6a02ca3282576e3bc09f3d9fa3aaa" default))))
+    ("9cf132f3f55a81d9dac3c3672fb1498c54642e11e27948d8b721de5a18eacf07" "05c3bc4eb1219953a4f182e10de1f7466d28987f48d647c01f1f0037ff35ab9a" "91faf348ce7c8aa9ec8e2b3885394263da98ace3defb23f07e0ba0a76d427d46" "3ed645b3c08080a43a2a15e5768b893c27f6a02ca3282576e3bc09f3d9fa3aaa" default)))
+ '(package-selected-packages
+   (quote
+    (yasnippet yaml-mode web-mode web-beautify smex org markdown-mode magit linum-relative js2-mode ido-vertical-mode goto-last-change go-mode flx-ido find-file-in-project expand-region exec-path-from-shell evil-smartparens dockerfile-mode clojure-mode-extra-font-locking cider ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
