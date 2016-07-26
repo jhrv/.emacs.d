@@ -5,6 +5,9 @@
 ;; seamless copy paste with os
 (setq x-select-enable-clipboard t)
 
+;; fix server-socket error
+(setq server-socket-dir "/tmp/emacs")
+
 ;; changes all yes/no questions to y/n type
 (fset 'yes-or-no-p 'y-or-n-p)
 
