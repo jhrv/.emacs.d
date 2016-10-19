@@ -5,8 +5,8 @@
 ;; seamless copy paste with os
 (setq x-select-enable-clipboard t)
 
-;; fix server-socket error
-(setq server-socket-dir "/tmp/emacs")
+;; start emacs server for emacsclient to connect to
+(server-start)
 
 ;; changes all yes/no questions to y/n type
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -61,10 +61,5 @@
         (setq mode-name ,new-name))))
 
 (rename-modeline "js2-mode" js2-mode "JS2")
-
-;; stop annoying 'directory is unsafe' error
-(require 'server)
-(and (>= emacs-major-version 23)
-     (defun server-ensure-safe-dir (dir) "Noop" t))
 
 (provide 'defaults)
