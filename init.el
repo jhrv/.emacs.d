@@ -16,7 +16,6 @@
 
 (defvar my-packages
   '(smex
-    magit
     evil
     org
     find-file-in-project
@@ -29,8 +28,6 @@
     web-beautify
     expand-region
     yasnippet
-    smartparens
-    evil-smartparens
     ido-vertical-mode
     flx-ido))
 
@@ -70,12 +67,10 @@
 (require 'evil-setup)
 (require 'org-setup)
 (require 'yasnippet-setup)
-(require 'magit-setup)
 (require 'linum-setup)
 (require 'ace-jump-setup)
 (require 'expand-region-setup)
 (require 'web-beautify-setup)
-(require 'smartparens-setup)
 
 ;; packages with no extra config goes here
 (require 'dockerfile-mode)

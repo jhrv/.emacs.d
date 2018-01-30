@@ -5,7 +5,7 @@
 (load-theme 'deeper-blue)
 
 (if is-mac
-    (set-frame-font "Inconsolata-20" t t)
+    (set-frame-font "Inconsolata-16" t t)
   (set-frame-font "Inconsolata-16" t t))
 
 ;; Disable toolbar
