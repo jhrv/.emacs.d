@@ -21,6 +21,7 @@
     find-file-in-project
     js2-mode
     web-mode
+    groovy-mode
     ace-jump-mode
     dockerfile-mode
     yaml-mode

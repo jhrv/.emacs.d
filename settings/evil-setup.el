@@ -1,5 +1,4 @@
 (require 'evil)
-;;(require 'evil-mode-line)
 
 (setq evil-modes
       '(fundamental-mode
@@ -7,6 +6,7 @@
         text-mode
         css-mode
         dockerfile-mode
+        groovy-mode
         yaml-mode
         markdown-mode
         web-mode
